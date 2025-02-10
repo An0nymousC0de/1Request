@@ -13,8 +13,8 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             text = f"""<b>𝖠𝖻𝗈𝗎𝗍...\n\n›› 𝖬𝖺𝖽𝖾 𝖿𝗈𝗋 : <a href='https://t.me/Zoroflix'>𝖹𝖮𝖱𝖮𝖥𝖫𝖨𝖷</a> \n›› 𝖮𝗐𝗇𝖾𝖽 𝖻𝗒 : <a tg://user?id={OWNER_ID}'> 𝖠𝗄𝖺𝗌𝗁</a> !! </b>""",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup([
-                [InlineKeyboardButton("🏡 Home", callback_data = "home"),
-                 InlineKeyboardButton("🔒 Close", callback_data = "close")]
+                [InlineKeyboardButton("ʜᴏᴍᴇ", callback_data = "home"),
+                 InlineKeyboardButton("ᴄʟᴏsᴇ", callback_data = "close")]
             ])
         )    
 
@@ -29,8 +29,8 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             ),
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup([
-                [InlineKeyboardButton("😊 About Me", callback_data = "about"),
-                 InlineKeyboardButton("🔒 Close", callback_data = "close")]
+                [InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data = "about"),
+                 InlineKeyboardButton("ᴄʟᴏsᴇ", callback_data = "close")]
             ])
         )  
 
